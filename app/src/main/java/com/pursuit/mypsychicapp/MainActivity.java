@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         SpinnerFragment fragment1 = new SpinnerFragment();
         FragmentManager manager1 = getSupportFragmentManager();
 
-        manager1.beginTransaction().add(R.id.fragment_container_in_main_xml,fragment1).commit();
+        manager1.beginTransaction().add(R.id.fragment_container,fragment1).commit();
 
         ShowChoiceFragment fragment2 = new ShowChoiceFragment();
         FragmentManager manager2 = getSupportFragmentManager();
-        manager2.beginTransaction().add(R.id.fragment_container_in_main_xml, fragment2).commit();
+        manager2.beginTransaction().add(R.id.fragment_container, fragment2).commit();
     }
 }
