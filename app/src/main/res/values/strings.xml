@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Psychic App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="submit">Submit</string>
+    <string name="shows">Shows</string>
+    <string name="sports">sports</string>
+    <string name="season">season</string>
+
+    <string-array name="spinner_choices">
+        <item>Shows</item>
+        <item>Sports</item>
+        <item>Seasons</item>
+    </string-array>
+</resources>
